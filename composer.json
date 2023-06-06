@@ -1,0 +1,29 @@
+{
+    "name": "galeas/dnsanalyzer",
+    "description": "This library should allow us to get all DNS records for the specified domain name.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Galeas\\Dnsanalyzer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Skrypnyk",
+            "email": "SSArtemS97@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
